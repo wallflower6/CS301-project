@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Item Redemption</title>
+</head>
+
+<body>
+    <div style="padding: 50px 200px">
+
+        <h1>Item Redemption</h1>
+        <br>
+
+        <h2>Please fill in your Redemption Information</h2>
+        <form id="redeem-item-form">
+            <div class="form-group">
+                <label for="item_id">Item Selection:</label>
+                <select class="form-control" id="item_id">
+                    <option th:each="voucher: ${getAllItems}" th:value="${voucher.VoucherID}" th:text="${voucher.VoucherName}" />
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn" onclick="redirectRedeemItem()">Submit</button>
+        </form>
+
+        
+        <p th:text=${cost}></p>
+        <p th:text=${insufficientBalance}></p>
+        
+        <h2 th:text="${listOfItems}" />
+        <table class="table">
+            <!-- <thead>
+            <tr>
+                <th scope="col">item_id</th>
+                <th scope="col">itemName</th>
+                <th scope="col">itemPointCost</th>
+            </tr>
+        </thead> -->
+            <tbody>
+                <!-- <tr th:each="person: ${getAllVenues}"> -->
+                <!-- <td th:text="${person.name}"/>
+            <td th:text="${person.age}"/> -->
+                <tr th:each="item: ${getAllItems}">
+                    <td th:text="${item.VoucherID}" />
+                    <td th:text="${item.VoucherName}" />
+                    <td th:text="${item.VoucherCode}" style="display: none;" />
+                    <td th:text="${item.ShortDescription}" style="display: none;" />
+                    <td th:text="${item.CostValue}" />
+                    
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        
+
+
+        <br>
+        <!-- <a class="btn btn-primary btn-lg" href="http://localhost:8081/choose" role="button">Go Back</a> -->
+        <a class="btn btn-primary btn-lg" href="http://ec2-18-140-152-81.ap-southeast-1.compute.amazonaws.com:8080/choose" role="button">Go Back</a>
+
+    </div>
+
+</body>
+<script defer type="text/javascript" src="item.js"></script>
+
+</html>

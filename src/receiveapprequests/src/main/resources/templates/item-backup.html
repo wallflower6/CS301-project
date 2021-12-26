@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="padding: 50px 200px">
+        <div id="myData"></div>
+        <script>
+            fetch("/items")
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    appendData(data);
+                })
+                .catch(function (err) {
+                    console.log('error: ' + err);
+                });
+            function appendData(data) {
+                var mainContainer = document.getElementById("myData");
+                for (var i = 0; i < data.length; i++) {
+
+                    //Item Details
+                    var div = document.createElement("div");
+                    div.innerHTML = 'Item: ' + data[i].itemName + ' | Cost: ' + data[i].itemPointCost;
+                    mainContainer.appendChild(div);
+
+                    //Redeem Button
+                    let btn = document.createElement("button");
+                    btn.innerHTML = "Redeem";
+                    btn.type = "submit";
+                    btn.name = "redeemBtn";
+                    mainContainer.appendChild(btn);
+
+                    //Horizontal line
+                    var itemHr = document.createElement('hr')
+                    mainContainer.appendChild(itemHr);
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>

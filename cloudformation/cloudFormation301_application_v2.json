@@ -1,0 +1,712 @@
+{
+    "Parameters": {
+        "NetworkStackParameter": {
+          "Type": "String"
+        }
+    },    
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "b689095b-755a-4e9d-a567-de0052f66075": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2290,
+                    "y": 5000
+                },
+                "z": 3,
+                "parent": "707b1608-7a46-48ee-a639-1908d8f73e63",
+                "embeds": [],
+                "isassociatedwith": [
+                    "7dc096f6-dcea-4d90-bf33-5a3cc334a785"
+                ],
+                "iscontainedinside": [
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63"
+                ]
+            },
+            "0ea493de-64f0-43dd-8ec7-4abcec1b0522": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2640,
+                    "y": 4450
+                },
+                "z": 3,
+                "parent": "707b1608-7a46-48ee-a639-1908d8f73e63",
+                "embeds": [],
+                "isassociatedwith": [
+                    "4d7ca5e3-98a2-4c5f-84a5-7dada1964a54"
+                ],
+                "iscontainedinside": [
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "707b1608-7a46-48ee-a639-1908d8f73e63"
+                ]
+            },
+            "59a23d2e-6dec-41a3-8010-d0e183bbf5d1": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2250,
+                    "y": 4090
+                },
+                "z": 3,
+                "parent": "a6187c38-5157-475b-b81e-854ff9570458",
+                "embeds": [],
+                "isassociatedwith": [
+                    "7dc096f6-dcea-4d90-bf33-5a3cc334a785"
+                ],
+                "iscontainedinside": [
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458"
+                ],
+                "dependson": [
+                    "68f24c72-1bc8-49ae-9ce3-d25a99a7578c"
+                ]
+            },
+            "467f6a1f-588d-4094-9371-021dcf51a53b": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1740,
+                    "y": 4950
+                },
+                "z": 3,
+                "parent": "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                "embeds": [],
+                "iscontainedinside": [
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                    "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd"
+                ]
+            },
+            "9a75c31c-13b0-4264-ba25-fd8c7223ef6e": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2250,
+                    "y": 4180
+                },
+                "z": 3,
+                "parent": "a6187c38-5157-475b-b81e-854ff9570458",
+                "embeds": [],
+                "iscontainedinside": [
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "a6187c38-5157-475b-b81e-854ff9570458"
+                ]
+            },
+            "715175b5-0bbe-443e-a875-5d85b98af623": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1310,
+                    "y": 3420
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "4b112e86-e0c6-4e5c-b2ed-fa1b5964f7aa": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2070,
+                    "y": 5010
+                },
+                "z": 3,
+                "parent": "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd",
+                "embeds": [],
+                "isassociatedwith": [
+                    "467f6a1f-588d-4094-9371-021dcf51a53b",
+                    "b689095b-755a-4e9d-a567-de0052f66075"
+                ]
+            },
+            "efa974a3-4ace-49a0-9292-2327947fda6f": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2130,
+                    "y": 4150
+                },
+                "z": 3,
+                "parent": "a6187c38-5157-475b-b81e-854ff9570458",
+                "embeds": [],
+                "isassociatedwith": [
+                    "9a75c31c-13b0-4264-ba25-fd8c7223ef6e",
+                    "59a23d2e-6dec-41a3-8010-d0e183bbf5d1"
+                ]
+            },
+            "7dc096f6-dcea-4d90-bf33-5a3cc334a785": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1860,
+                    "y": 4030
+                },
+                "z": 2,
+                "parent": "dad62808-edc5-4727-8071-6935ce41f6e0",
+                "embeds": [],
+                "iscontainedinside": [
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0"
+                ]
+            },
+            "a61fc0b2-c64b-4bc1-ae79-fbeda19a7ffd": {
+                "size": {
+                    "width": 1920,
+                    "height": 1230
+                },
+                "position": {
+                    "x": 960,
+                    "y": 4800
+                },
+                "z": 0,
+                "embeds": [
+                    "467f6a1f-588d-4094-9371-021dcf51a53b",
+                    "4b112e86-e0c6-4e5c-b2ed-fa1b5964f7aa"
+                ],
+                "iscontainedinside": [
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0"
+                ]
+            },
+            "a6187c38-5157-475b-b81e-854ff9570458": {
+                "size": {
+                    "width": 1110,
+                    "height": 450
+                },
+                "position": {
+                    "x": 1500,
+                    "y": 4030
+                },
+                "z": 2,
+                "parent": "dad62808-edc5-4727-8071-6935ce41f6e0",
+                "embeds": [
+                    "9a75c31c-13b0-4264-ba25-fd8c7223ef6e",
+                    "59a23d2e-6dec-41a3-8010-d0e183bbf5d1",
+                    "efa974a3-4ace-49a0-9292-2327947fda6f"
+                ],
+                "iscontainedinside": [
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0"
+                ]
+            },
+            "707b1608-7a46-48ee-a639-1908d8f73e63": {
+                "size": {
+                    "width": 1650,
+                    "height": 870
+                },
+                "position": {
+                    "x": 2010,
+                    "y": 4330
+                },
+                "z": 2,
+                "parent": "dad62808-edc5-4727-8071-6935ce41f6e0",
+                "embeds": [
+                    "4d7ca5e3-98a2-4c5f-84a5-7dada1964a54",
+                    "0ea493de-64f0-43dd-8ec7-4abcec1b0522",
+                    "b689095b-755a-4e9d-a567-de0052f66075"
+                ],
+                "iscontainedinside": [
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0",
+                    "dad62808-edc5-4727-8071-6935ce41f6e0"
+                ]
+            },
+            "4d7ca5e3-98a2-4c5f-84a5-7dada1964a54": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 2760,
+                    "y": 4450
+                },
+                "z": 3,
+                "parent": "707b1608-7a46-48ee-a639-1908d8f73e63",
+                "embeds": [],
+                "iscontainedinside": [
+                    "dad62808-edc5-4727-8071-6935ce41f6e0"
+                ]
+            },
+            "26886d57-e2f8-49f6-8b80-4558746557ce": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1520,
+                    "y": 5220
+                },
+                "z": 2,
+                "parent": "dad62808-edc5-4727-8071-6935ce41f6e0",
+                "embeds": [],
+                "isassociatedwith": [
+                    "715175b5-0bbe-443e-a875-5d85b98af623",
+                    "467f6a1f-588d-4094-9371-021dcf51a53b"
+                ]
+            },
+            "d6f3c1d0-41fb-43a0-ba4c-8f6a083efb05": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1890,
+                    "y": 3940
+                },
+                "z": 2,
+                "parent": "dad62808-edc5-4727-8071-6935ce41f6e0",
+                "embeds": [],
+                "isassociatedwith": [
+                    "715175b5-0bbe-443e-a875-5d85b98af623",
+                    "9a75c31c-13b0-4264-ba25-fd8c7223ef6e"
+                ]
+            },
+            "dad62808-edc5-4727-8071-6935ce41f6e0": {
+                "size": {
+                    "width": 4320,
+                    "height": 3420
+                },
+                "position": {
+                    "x": 1440,
+                    "y": 3790
+                },
+                "z": 1,
+                "embeds": [
+                    "707b1608-7a46-48ee-a639-1908d8f73e63",
+                    "a6187c38-5157-475b-b81e-854ff9570458",
+                    "7dc096f6-dcea-4d90-bf33-5a3cc334a785",
+                    "d6f3c1d0-41fb-43a0-ba4c-8f6a083efb05",
+                    "26886d57-e2f8-49f6-8b80-4558746557ce"
+                ]
+            },
+            "6ae6769d-6f46-436b-8bf1-45c6f5ce11eb": {
+                "source": {
+                    "id": "dad62808-edc5-4727-8071-6935ce41f6e0"
+                },
+                "target": {
+                    "id": "715175b5-0bbe-443e-a875-5d85b98af623"
+                },
+                "z": 1
+            },
+            "1ec3cc6a-47a2-45e0-8117-84cb56f2e1ce": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1350,
+                    "y": 2260
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "68f24c72-1bc8-49ae-9ce3-d25a99a7578c": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 630,
+                    "y": 2670
+                },
+                "z": 1,
+                "embeds": []
+            }
+        }
+    },
+    "Resources": {
+        "ReceiveAppRequests": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "DisableApiTermination": "false",
+                "InstanceInitiatedShutdownBehavior": "stop",
+                "ImageId": "ami-05f07264d8850fe61",
+                "InstanceType": "t2.micro",
+                "Tags": [
+                    {
+                      "Key": "Name",
+                      "Value": "Receive App Requests"
+                    }
+                  ],
+                "SecurityGroupIds": [
+                    {
+                        "Ref": "SecurityGroup1"
+                    }
+                ],
+                "SubnetId": {
+                    "Fn::ImportValue": {
+                        "Fn::Sub": "${NetworkStackParameter}-SubnetID1"
+                    }
+                },
+                "AvailabilityZone": "ap-southeast-1a"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "b689095b-755a-4e9d-a567-de0052f66075"
+                }
+            }
+        },
+        "ProcessAppRequests": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "DisableApiTermination": "false",
+                "InstanceInitiatedShutdownBehavior": "stop",
+                "ImageId": "ami-05f07264d8850fe61",
+                "InstanceType": "t2.micro",
+                "Tags": [
+                    {
+                      "Key": "Name",
+                      "Value": "Process App Requests"
+                    }
+                  ],
+                  "SubnetId": {
+                        "Fn::ImportValue": {
+                            "Fn::Sub": "${NetworkStackParameter}-SubnetIDPriv"
+                        }
+                    },
+                "SecurityGroupIds": [
+                    {
+                        "Ref": "SecurityGroup2"
+                    }
+                ],
+                "AvailabilityZone": "ap-southeast-1a"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "0ea493de-64f0-43dd-8ec7-4abcec1b0522"
+                }
+            }
+        },
+        "ReceiveAPIRequests": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "DisableApiTermination": "false",
+                "InstanceInitiatedShutdownBehavior": "stop",
+                "ImageId": "ami-05f07264d8850fe61",
+                "InstanceType": "t2.micro",
+                "Tags": [
+                    {
+                      "Key": "Name",
+                      "Value": "Receive API Requests"
+                    }
+                  ],
+                "SecurityGroupIds": [
+                    {
+                        "Ref": "SecurityGroup1"
+                    }
+                ],
+                "SubnetId": {
+                    "Fn::ImportValue": {
+                        "Fn::Sub": "${NetworkStackParameter}-SubnetID2"
+                    }
+                },
+                "AvailabilityZone": "ap-southeast-1a"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "59a23d2e-6dec-41a3-8010-d0e183bbf5d1"
+                }
+            },
+            "DependsOn": [
+                "S3Bucket1"
+            ]
+        },
+        "SecurityGroup1": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "Enable HTTP ingress",
+                "VpcId": {
+                    "Fn::ImportValue": {
+                        "Fn::Sub": "${NetworkStackParameter}-VPCID"
+                    }
+                },
+                "Tags": [
+                    {
+                      "Key": "Name",
+                      "Value": "ReceiveAppRequest / ReceiveAPIRequest SG"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "7dc096f6-dcea-4d90-bf33-5a3cc334a785"
+                }
+            }
+        },
+        "HTTPIngress": {
+            "Type": "AWS::EC2::SecurityGroupIngress",
+            "Properties": {
+              "GroupId": {
+                "Ref": "SecurityGroup1"
+              },
+              "IpProtocol": "tcp",
+              "FromPort": "80",
+              "ToPort": "80",
+              "CidrIp": "0.0.0.0/0"
+            }
+        },
+        "HTTPEgress": {
+            "Type": "AWS::EC2::SecurityGroupEgress",
+            "Properties": {
+              "GroupId": {
+                "Ref": "SecurityGroup1"
+              },
+              "IpProtocol": "-1",
+              "CidrIp": "0.0.0.0/0"
+            }
+        },
+        "SecurityGroup2": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "Enable SSH ingress",
+                "VpcId": {
+                    "Fn::ImportValue": {
+                        "Fn::Sub": "${NetworkStackParameter}-VPCID"
+                    }
+                },
+                "Tags": [
+                    {
+                      "Key": "Name",
+                      "Value": "ProcessAppRequests SG"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "4d7ca5e3-98a2-4c5f-84a5-7dada1964a54"
+                }
+            }
+        },
+        "SSHIngress": {
+            "Type": "AWS::EC2::SecurityGroupIngress",
+            "Properties": {
+            "GroupId": {
+                "Ref": "SecurityGroup2"
+            },
+            "IpProtocol": "tcp",
+            "FromPort": "22",
+            "ToPort": "22",
+            "CidrIp": "0.0.0.0/0"
+            }
+        },
+        "S3Bucket1": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "68f24c72-1bc8-49ae-9ce3-d25a99a7578c"
+                }
+            }
+        }
+    },
+    "Outputs": {
+        "ReceiveAppRequestsID": {
+            "Description" : "ReceiveAppRequests ID",
+            "Value" : { "Ref" : "ReceiveAppRequests" },
+            "Export" : {
+            "Name" : {"Fn::Sub": "${AWS::StackName}-ReceiveAppRequests" }
+            }
+        },
+        "ReceiveAPIRequestsID": {
+            "Description" : "ReceiveAPIRequests ID",
+            "Value" : { "Ref" : "ReceiveAPIRequests" },
+            "Export" : {
+            "Name" : {"Fn::Sub": "${AWS::StackName}-ReceiveAPIRequests" }
+            }
+        }
+    },
+    "Description": "cloudformation301-application"
+}

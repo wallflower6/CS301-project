@@ -1,0 +1,23 @@
+# cloud:
+#   aws:
+#     credentials:
+#       access-key: AKIA2FRH44W3DO4H6TF4
+#       secret-key: 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
+#     region:
+#       static: ap-southeast-1
+#     stack:
+#       auto: false
+
+# application:
+#   bucket:
+#     name: cs301-team3-responses-cache
+
+# logging:
+#   level:
+#     com:
+#       amazonaws:
+#         util:
+#           EC2MetadataUtils: error
+
+# server:
+#   port: 9090

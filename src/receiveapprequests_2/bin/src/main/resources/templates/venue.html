@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Experience Booking</title>
+</head>
+
+<body>
+    <div style="padding: 50px 200px">
+        <h1>Experience Booking</h1>
+        <br>
+        <h2 th:text="${listOfVenues}" />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Venue ID</th>
+                    <th scope="col">Venue Name</th>
+                    <th scope="col">Point Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="venue: ${getAllVenues}">
+                    <td th:text="${venue.venueId}" />
+                    <td th:text="${venue.venueName}" />
+                    <td th:text="${venue.venuePointCost}" />
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">JSO NB</th>
+                    <th scope="col">JSO ID</th>
+                    <th scope="col">JSO NAME</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="jso: ${getVenueJSOS}">
+                    <td th:text="${jso.neighborhood}" />
+                    <td th:text="${jso.id}" />
+                    <td th:text="${jso.name}" />
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <h2>Please fill in your Booking Information</h2>
+        <form id="book-venue-form" onsubmit="redirectBookVenue()">
+            <div class="form-group">
+                <label for="venue_id">1. Select Venue to Book</label>
+                <select class="form-control" id="venue_id">
+                    <option th:each="jso: ${getVenueJSOS}" th:value="${jso.id}" th:text="${jso.name}"/>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">2. Date of Booking (e.g. YYYY-MM-DD)</label>
+                <input type="username" class="form-control" id="date" placeholder="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">3. Please write your reservation time (e.g. 9:00 AM/PM)</label>
+                <input type="username" class="form-control" id="time" placeholder="time" required>
+            </div>
+            <div class="form-group">
+                <label for="party_size">4. Please indicate your party size</label>
+                <select class="form-control" id="party_size">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="first_name">5. Your First Name</label>
+                <input type="username" class="form-control" id="first_name" placeholder="John" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">6. Your Last Name</label>
+                <input type="username" class="form-control" id="last_name" placeholder="Doe" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">7. Your Contact Number</label>
+                <input type="username" class="form-control" id="phone" placeholder="phone" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <br>
+        <!-- <a class="btn btn-primary btn-lg" href="http://localhost:8081/choose" role="button">Go Back</a> -->
+        <a class="btn btn-primary btn-lg" href="http://ec2-18-140-152-81.ap-southeast-1.compute.amazonaws.com:8080/choose" role="button">Go Back</a>
+    </div>
+</body>
+<script defer type="text/javascript" src="venue.js"></script>
+
+</html>
